@@ -8,6 +8,7 @@ basic.forever(function () {
         AlarmeDisparado = false
         basic.clearScreen()
     }
+    // Ajuste a sensibilidade mudando o valor. Inicialmente definimos como 30.
     if (input.acceleration(Dimension.Z) < DimensaoZ - 30) {
         AlarmeDisparado = true
     }
