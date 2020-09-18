@@ -1,5 +1,6 @@
 let DimensaoZ = 0
 let AlarmeDisparado = false
+basic.clearScreen()
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         basic.showIcon(IconNames.Target)
